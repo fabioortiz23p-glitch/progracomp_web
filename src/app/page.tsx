@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="bg-[#faf7fd]">
         <Hero />
         <QueEs />
         <Ventajas />

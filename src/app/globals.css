@@ -4,9 +4,20 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  --pa-dark: #5f2d82;
+  --pa-mid: #8f63b8;
+  --pa-soft: #b998d8;
+  --pa-light: #efe6f7;
+  --pa-bg: #faf7fd;
+  --pa-text: #341a4d;
+  --pa-text-soft: #5c4370;
+  --pa-border: #e2d3f0;
+}
+
 body {
   margin: 0;
-  background: white;
-  color: black;
+  background: var(--pa-bg);
+  color: var(--pa-text);
   font-family: Arial, Helvetica, sans-serif;
 }

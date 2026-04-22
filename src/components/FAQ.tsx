@@ -2,13 +2,13 @@ import { faqs } from "@/data/faq";
 
 export default function FAQ() {
   return (
-    <section id="faq" className="bg-white px-6 py-20 text-black">
+    <section id="faq" className="bg-[#efe6f7] px-6 py-20 text-[#341a4d]">
       <div className="mx-auto max-w-4xl">
-        <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-gray-500">
+        <p className="mb-3 text-sm font-semibold uppercase tracking-[0.15em] text-[#8f63b8]">
           FAQ
         </p>
 
-        <h2 className="text-3xl font-bold md:text-4xl">
+        <h2 className="text-3xl font-bold text-[#5f2d82] md:text-4xl">
           Preguntas frecuentes
         </h2>
 
@@ -16,12 +16,12 @@ export default function FAQ() {
           {faqs.map((faq) => (
             <details
               key={faq.question}
-              className="rounded-2xl border border-gray-200 bg-gray-50 p-5"
+              className="rounded-2xl border border-[#e2d3f0] bg-white p-5 shadow-sm"
             >
-              <summary className="cursor-pointer text-lg font-semibold">
+              <summary className="cursor-pointer text-lg font-semibold text-[#5f2d82]">
                 {faq.question}
               </summary>
-              <p className="mt-4 leading-7 text-gray-700">{faq.answer}</p>
+              <p className="mt-4 leading-7 text-[#5c4370]">{faq.answer}</p>
             </details>
           ))}
         </div>
