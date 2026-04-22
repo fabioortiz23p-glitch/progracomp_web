@@ -16,6 +16,18 @@ export default function Navbar() {
           <a href="#dirigido" className="transition hover:text-gray-300">
             Dirigido a
           </a>
+          <a href="#que-se-hace" className="transition hover:text-gray-300">
+            Qué se hace
+          </a>
+          <a href="#calificacion" className="transition hover:text-gray-300">
+            Calificación
+          </a>
+          <a href="#equipo" className="transition hover:text-gray-300">
+            Equipo
+          </a>
+          <a href="#faq" className="transition hover:text-gray-300">
+            FAQ
+          </a>
         </nav>
       </div>
     </header>
