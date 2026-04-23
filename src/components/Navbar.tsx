@@ -3,8 +3,11 @@ import Image from "next/image";
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/20 bg-[#8f63b8]/95 backdrop-blur">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-3 py-3 sm:px-6 sm:py-4">
-        <a href="#inicio" className="flex min-w-0 items-center gap-2 text-white sm:gap-4">
+      <div className="mx-auto flex max-w-7xl items-center justify-between pl-2 pr-3 py-3 sm:px-6 sm:py-4">
+        <a
+          href="#inicio"
+          className="-ml-1 flex min-w-0 items-center gap-2 text-white sm:ml-0 sm:gap-4"
+        >
           <Image
             src="/brand/logo-uniandes-industrial.png"
             alt="Universidad de los Andes - Departamento de Ingeniería Industrial"

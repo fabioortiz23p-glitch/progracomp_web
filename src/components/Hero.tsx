@@ -21,7 +21,7 @@ export default function Hero() {
             {heroContent.subtitle}
           </p>
 
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+          <div className="mt-8 flex flex-col items-center gap-8 sm:flex-row sm:justify-center">
             <a
               href="#programa"
               className="rounded-xl bg-white px-6 py-3 text-center font-medium text-[#5f2d82] transition hover:bg-[#efe6f7]"
@@ -36,21 +36,9 @@ export default function Hero() {
               Nuestro equipo
             </a>
           </div>
-
-          <div className="mt-8 flex flex-wrap items-center gap-4">
-            <span className="text-sm text-[#f8f3fc]">
-              Programa de Acompañamiento
-            </span>
-
-            <span className="hidden h-5 w-px bg-white/30 md:block" />
-
-            <span className="text-sm text-[#f8f3fc]">
-              Departamento de Ingeniería Industrial
-            </span>
-          </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-6">
+        <div className="flex flex-col items-center justify-center gap-6 md:ml-50">
           <div className="rounded-[2rem] bg-white/15 p-6 shadow-2xl backdrop-blur">
             <Image
               src="/brand/logo-pa.png"
