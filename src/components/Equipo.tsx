@@ -20,7 +20,7 @@ export default function Equipo() {
   );
 
   return (
-    <section id="equipo" className="bg-[#faf7fd] px-6 py-20 text-[#341a4d]">
+    <section id="equipo" className="border-t border-[#dcc7ee] bg-[#efe6f7] px-6 py-24 text-[#341a4d]">
       <div className="mx-auto max-w-6xl">
         <p className="mb-3 text-center text-sm font-semibold uppercase tracking-[0.15em] text-[#8f63b8]">
           Equipo
@@ -31,45 +31,52 @@ export default function Equipo() {
         </h2>
 
         <p className="mx-auto mt-4 max-w-3xl text-center text-lg leading-8 text-[#5c4370]">
-          El Programa de Acompañamiento 2026-10 cuenta con un equipo conformado
-          por un asistente graduado y monitores que acompañan a los estudiantes
+          Programa de Acompañamiento 2026-10 cuenta con un equipo conformado
+          por un Asistente Graduado y monitores que acompañan a los estudiantes
           de primer semestre en su adaptación académica y universitaria.
         </p>
 
         {assistant && (
-          <div className="mx-auto mt-12 max-w-3xl rounded-3xl border border-[#e2d3f0] bg-white p-8 shadow-sm">
-            <div className="flex flex-col items-center text-center">
-              {assistant.image ? (
-                <div className="relative h-44 w-44 overflow-hidden rounded-full border-4 border-[#efe6f7]">
-                  <Image
-                    src={assistant.image}
-                    alt={`Foto de ${assistant.name}`}
-                    fill
-                    className="object-cover object-top"
-                  />
-                </div>
-              ) : (
-                <div className="flex h-44 w-44 items-center justify-center rounded-full bg-[#8f63b8] text-4xl font-bold text-white">
-                  {getInitials(assistant.name)}
-                </div>
-              )}
+          <div className="mt-12">
+            <h3 className="mb-5 text-center text-2xl font-bold text-[#5f2d82] md:text-3xl">
+              Asistente Graduado
+            </h3>
 
-              <p className="mt-6 text-sm font-semibold uppercase tracking-[0.15em] text-[#8f63b8]">
-                Asistente Graduado
-              </p>
+            <div className="mx-auto max-w-xl rounded-3xl border border-[#e2d3f0] bg-white px-8 py-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+              <div className="flex justify-center">
+                {assistant.image ? (
+                  <div className="relative h-36 w-36 overflow-hidden rounded-full border-4 border-[#efe6f7]">
+                    <Image
+                      src={assistant.image}
+                      alt={`Foto de ${assistant.name}`}
+                      fill
+                      unoptimized
+                      className="object-cover object-top"
+                    />
+                  </div>
+                ) : (
+                  <div className="flex h-36 w-36 items-center justify-center rounded-full bg-[#8f63b8] text-3xl font-bold text-white">
+                    {getInitials(assistant.name)}
+                  </div>
+                )}
+              </div>
 
-              <h3 className="mt-2 text-2xl font-bold text-[#5f2d82]">
-                {assistant.name}
-              </h3>
+              <div className="mt-6 text-center">
+                <h4 className="text-2xl font-bold text-[#5f2d82]">
+                  {assistant.name}
+                </h4>
 
-              <p className="mt-2 text-[#5c4370]">{assistant.role}</p>
+                <p className="mt-3 text-base text-[#6f5685]">
+                  {assistant.role}
+                </p>
 
-              <a
-                href={`mailto:${assistant.email}`}
-                className="mt-4 inline-block text-sm font-medium text-[#5f2d82] underline"
-              >
-                {assistant.email}
-              </a>
+                <a
+                  href={`mailto:${assistant.email}`}
+                  className="mt-4 inline-block text-sm font-medium text-[#5f2d82] underline underline-offset-2"
+                >
+                  {assistant.email}
+                </a>
+              </div>
             </div>
           </div>
         )}

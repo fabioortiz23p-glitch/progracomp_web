@@ -2,21 +2,31 @@ export const faqs = [
   {
     question: "¿Es obligatorio?",
     answer:
-      "No. El programa está pensado como un espacio de acompañamiento y apoyo para estudiantes de primer semestre.",
+      "No. El Programa de Acompañamiento es voluntario y está pensado como un espacio de apoyo para estudiantes de primer semestre.",
+  },
+  {
+    question: "¿Tiene créditos?",
+    answer:
+      "No. El programa tiene una carga de 0 créditos académicos.",
   },
   {
     question: "¿A quién va dirigido?",
     answer:
-      "Principalmente a estudiantes de primer semestre de Ingeniería Industrial que están comenzando su vida universitaria.",
+      "Está dirigido principalmente a estudiantes de primer semestre de Ingeniería Industrial que cursan las materias base del inicio de carrera.",
   },
   {
     question: "¿Qué tipo de apoyo ofrece?",
     answer:
-      "Ofrece refuerzo académico, orientación, integración y acompañamiento cercano durante el semestre.",
+      "Ofrece acompañamiento académico-formativo, refuerzo en materias clave, orientación para evaluaciones, talleres y espacios de integración.",
   },
   {
-    question: "¿Qué se trabaja en las sesiones?",
+    question: "¿Puedo retirarme del programa?",
     answer:
-      "Dependiendo de la semana, se pueden realizar repasos, actividades de integración, resolución de dudas y seguimiento académico.",
+      "Sí. Existe la posibilidad de retirarse, sin que esto represente inconvenientes para el plan de estudios.",
+  },
+  {
+    question: "¿Qué beneficio tiene la nota del programa?",
+    answer:
+      "Para estudiantes que permanecen todo el semestre y aprueban con nota igual o superior a 4.0, la nota del programa puede representar un 5% adicional en Introducción a la Ingeniería Industrial.",
   },
 ];

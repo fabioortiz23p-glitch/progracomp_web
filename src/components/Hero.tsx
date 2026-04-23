@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="mx-auto grid max-w-6xl items-center gap-10 md:grid-cols-2">
         <div>
           <p className="mb-4 text-sm uppercase tracking-[0.2em] text-[#f4ecfa]">
-            Ingeniería Industrial · Universidad de los Andes
+            Ingeniería Industrial | Universidad de los Andes
           </p>
 
           <h1 className="text-4xl font-bold leading-tight md:text-6xl">
@@ -50,7 +50,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-6 md:items-end">
+        <div className="flex flex-col items-center justify-center gap-6">
           <div className="rounded-[2rem] bg-white/15 p-6 shadow-2xl backdrop-blur">
             <Image
               src="/brand/logo-pa.png"
@@ -62,7 +62,7 @@ export default function Hero() {
             />
           </div>
 
-          <div className="rounded-2xl bg-white/10 px-5 py-3 backdrop-blur">
+          <div className="w-full max-w-[300px] rounded-2xl bg-white/10 px-4 py-3 backdrop-blur">
             <p className="text-center text-sm text-[#f8f3fc]">
               Acompañamiento académico, integración y adaptación a la vida
               universitaria
