@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-[#5f2d82] px-6 py-12 text-white">
-      <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-[1.3fr_1fr]">
+      <div className="mx-auto grid w-full md:w-fit gap-8 md:grid-cols-[570px_280px]">
         <div>
           <div className="flex items-center gap-4">
             <Image
@@ -47,7 +47,7 @@ export default function Footer() {
                 className="text-sm text-white underline underline-offset-2 hover:text-[#efe6f7]"
               >
                 f.ortizp@uniandes.edu.co
-              </a>
+            </a>
             </div>
 
             <div>
@@ -65,7 +65,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div>
+        <div className="md:ml-36">
           <h4 className="text-sm font-semibold uppercase tracking-[0.15em] text-[#e8d9f5]">
             Navegación
           </h4>
