@@ -12,13 +12,12 @@ export const queEsContent = {
 };
 
 export const ventajasContent = [
-  "Apoyo semi-personalizado en materias clave del primer semestre, especialmente programación y cálculo.",
-  "Espacios para resolver ejercicios en grupo y trabajar colaborativamente con otros estudiantes de la carrera.",
-  "Actividades y materiales que apoyan la preparación para exámenes.",
-  "Consejos prácticos para afrontar evaluaciones y organizar mejor el estudio.",
-  "Talleres orientados al desarrollo de habilidades de presentación en público, hábitos de estudio y manejo del tiempo.",
-  "Información sobre recursos universitarios y oportunidades que enriquecen la experiencia académica y profesional.",
-  "Integración con compañeros del mismo semestre para fortalecer la red de apoyo y construir comunidad desde el inicio.",
+    "Apoyo semi-personalizado en materias clave del primer semestre, especialmente en programación y cálculos.",
+    "Espacios para resolver ejercicios en grupo y fortalecer el trabajo colaborativo entre estudiantes de la carrera.",
+    "Actividades y materiales de apoyo para preparar exámenes y organizar mejor el estudio.",
+    "Talleres para fortalecer habilidades de presentación en público, hábitos de estudio y manejo del tiempo.",
+    "Información sobre recursos universitarios y oportunidades que enriquecen la experiencia académica y profesional.",
+    "Integración con compañeros del mismo semestre para fortalecer la red de apoyo desde el inicio.",
 ];
 
 export const dirigidoAContent = {
@@ -48,8 +47,8 @@ export const calificacionContent = {
     "El programa tiene una carga de 0 créditos académicos.",
     "La nota final se registra como aprobado o reprobado.",
     "Cada estudiante recibe además una nota numérica de seguimiento.",
+    "Existe la posibilidad de retirarse sin inconvenientes para el plan de estudios.",
     "Para quienes permanezcan durante todo el semestre y aprueben el programa con nota igual o superior a 4.0, la nota equivale a un 5% adicional sobre Introducción a la Ingeniería Industrial.",
-    "El programa es voluntario y existe la posibilidad de retirarse sin inconvenientes para el plan de estudios.",
   ],
 };
 
