@@ -21,7 +21,7 @@ export default function Hero() {
             {heroContent.subtitle}
           </p>
 
-          <div className="mt-8 flex flex-col items-center gap-8 sm:flex-row sm:justify-center">
+          <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
               href="#programa"
               className="rounded-xl bg-white px-6 py-3 text-center font-medium text-[#5f2d82] transition hover:bg-[#efe6f7]"
