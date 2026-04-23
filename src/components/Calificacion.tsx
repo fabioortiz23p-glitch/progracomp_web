@@ -1,5 +1,22 @@
 import { calificacionContent } from "@/data/content";
 
+function renderHighlightedText(text: string, isLast: boolean) {
+  const parts = text.split(/\[\[(.*?)\]\]/g);
+
+  return parts.map((part, index) =>
+    index % 2 === 1 ? (
+      <strong
+        key={index}
+        className={isLast ? "font-bold text-white" : "font-bold text-[#341a4d]"}
+      >
+        {part}
+      </strong>
+    ) : (
+      <span key={index}>{part}</span>
+    )
+  );
+}
+
 export default function Calificacion() {
   return (
     <section
@@ -28,9 +45,9 @@ export default function Calificacion() {
             return (
               <div
                 key={item}
-                className={`group relative overflow-hidden rounded-2xl p-6 transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-xl ${
+                className={`group relative overflow-hidden rounded-2xl p-6 transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-xl flex items-center justify-center ${
                   isLast
-                    ? "md:col-span-2 border border-[#8f63b8] bg-gradient-to-r from-[#8f63b8] to-[#7b4faa] shadow-md"
+                    ? "w-full border border-[#8f63b8] bg-gradient-to-r from-[#8f63b8] to-[#7b4faa] shadow-md md:col-span-2 md:w-[53%] md:justify-self-center"
                     : "border border-[#e2d3f0] bg-white shadow-sm hover:border-[#caaee3]"
                 }`}
               >
@@ -41,13 +58,13 @@ export default function Calificacion() {
                 />
 
                 <p
-                  className={`text-base leading-8 transition-colors duration-300 ${
+                  className={`text-center text-base leading-8 transition-colors duration-300 ${
                     isLast
                       ? "font-medium text-white group-hover:text-white"
                       : "text-[#5c4370] group-hover:text-[#4d2c67]"
                   }`}
                 >
-                  {item}
+                  {renderHighlightedText(item, isLast)}
                 </p>
               </div>
             );

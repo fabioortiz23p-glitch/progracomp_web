@@ -35,7 +35,7 @@ export const queSeHaceContent = {
     "Preparación para parciales y seguimiento académico.",
     "Actividades de integración y construcción de comunidad.",
     "Espacios para fortalecer habilidades blandas y hábitos de estudio.",
-    "Acompañamiento cercano durante el proceso de adaptación al primer semestre.",
+    "Acompañamiento cercano durante la adaptación al primer semestre.",
   ],
 };
 
@@ -44,11 +44,11 @@ export const calificacionContent = {
   intro:
     "El Programa de Acompañamiento tiene una carga de 0 créditos y se registra con una nota final de aprobado o reprobado. Adicionalmente, cada estudiante obtiene una nota numérica que puede representar un beneficio adicional en el curso de Introducción a la Ingeniería Industrial.",
   items: [
-    "El programa tiene una carga de 0 créditos académicos.",
-    "La nota final se registra como aprobado o reprobado.",
-    "Cada estudiante recibe además una nota numérica de seguimiento.",
-    "Existe la posibilidad de retirarse sin inconvenientes para el plan de estudios.",
-    "Para quienes permanezcan durante todo el semestre y aprueben el programa con nota igual o superior a 4.0, la nota equivale a un 5% adicional sobre Introducción a la Ingeniería Industrial.",
+    "El programa tiene una carga de [[0 créditos académicos]].",
+    "La nota final se registra como [[aprobado]] o [[reprobado]].",
+    "Cada estudiante recibe además una [[nota numérica de seguimiento]].",
+    "Existe la posibilidad de [[retirar sin inconvenientes]] en el plan de estudios.",
+    "Para quienes permanezcan durante todo el semestre y aprueben el programa con [[nota igual o superior a 4.0]], la nota equivale a un [[5% adicional]] sobre [[Introducción a la Ingeniería Industrial]].",
   ],
 };
 
