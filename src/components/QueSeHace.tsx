@@ -4,8 +4,16 @@ import { useState } from "react";
 import { queSeHaceContent } from "@/data/content";
 
 export default function QueSeHace() {
-  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const [activeIndexes, setActiveIndexes] = useState<number[]>([]);
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+
+  const toggleActive = (index: number) => {
+    setActiveIndexes((prev) =>
+      prev.includes(index)
+        ? prev.filter((item) => item !== index)
+        : [...prev, index]
+    );
+  };
 
   return (
     <section
@@ -29,7 +37,8 @@ export default function QueSeHace() {
 
         <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {queSeHaceContent.items.map((item, index) => {
-            const isOpen = hoveredIndex === index || activeIndex === index;
+            const isActive = activeIndexes.includes(index);
+            const isOpen = hoveredIndex === index || isActive;
 
             return (
               <button
@@ -39,9 +48,7 @@ export default function QueSeHace() {
                 onMouseLeave={() => setHoveredIndex(null)}
                 onFocus={() => setHoveredIndex(index)}
                 onBlur={() => setHoveredIndex(null)}
-                onClick={() =>
-                  setActiveIndex(activeIndex === index ? null : index)
-                }
+                onClick={() => toggleActive(index)}
                 aria-expanded={isOpen}
                 className="group relative min-h-[170px] overflow-hidden rounded-2xl border border-[#e2d3f0] bg-white p-6 text-left shadow-sm transition-all duration-300 ease-out hover:-translate-y-1 hover:border-[#caaee3] hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-[#8f63b8]/40"
               >

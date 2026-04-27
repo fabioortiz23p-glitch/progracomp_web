@@ -8,47 +8,46 @@ export const heroContent = {
 
 export const queEsContent = {
   title: "¿Qué es el programa?",
-  text: "El Programa de Acompañamiento es un espacio diseñado para estudiantes de primer semestre de Ingeniería Industrial que busca facilitar una transición más sólida, cercana y exitosa a la vida universitaria. A través del acompañamiento de monitores de semestres avanzados del mismo programa, se ofrece apoyo académico-formativo en un ambiente de colaboración, con el propósito de fortalecer la adaptación a la vida Uniandina y brindar herramientas útiles para el inicio del pregrado.",
+  text: "El Programa de Acompañamiento es una estrategia de apoyo para el inicio del pregrado en Ingeniería Industrial. Combina monitorías, seguimiento académico, actividades formativas y espacios de integración, con el fin de facilitar la adaptación a la vida universitaria y fortalecer el desempeño en las materias base del primer semestre.",
 };
 
 export const ventajasContent = [
-    "Apoyo semi-personalizado en materias clave del primer semestre, especialmente en programación y cálculos.",
-    "Espacios para resolver ejercicios en grupo y fortalecer el trabajo colaborativo entre estudiantes de la carrera.",
-    "Actividades y materiales de apoyo para preparar exámenes y organizar mejor el estudio.",
-    "Talleres para fortalecer habilidades de presentación en público, hábitos de estudio y manejo del tiempo.",
-    "Información sobre recursos universitarios y oportunidades que enriquecen la experiencia académica y profesional.",
-    "Integración con compañeros del mismo semestre para fortalecer la red de apoyo desde el inicio.",
+  "Acompañamiento entre pares con monitores de semestres avanzados de Ingeniería Industrial.",
+  "Refuerzo académico en cursos clave como Introducción a la Programación, Precálculo y Cálculo Diferencial.",
+  "Seguimiento temprano para identificar dificultades, resolver dudas y orientar estrategias de estudio.",
+  "Preparación práctica para parciales mediante ejercicios, talleres y material de apoyo.",
+  "Desarrollo de habilidades transversales como organización del tiempo, comunicación y trabajo colaborativo.",
+  "Construcción de comunidad entre estudiantes que están iniciando su experiencia universitaria.",
 ];
 
 export const dirigidoAContent = {
   title: "¿A quién va dirigido?",
-  text: "El Programa de Acompañamiento está dirigido a estudiantes de primer semestre de Ingeniería Industrial que cursan las materias base del inicio de carrera, como Precálculo o Cálculo Diferencial, Introducción a la Programación e Introducción a Ingeniería Industrial.",
+  text: "Está dirigido a estudiantes de primer semestre de Ingeniería Industrial, especialmente a quienes se encuentran cursando materias base como Introducción a la Programación, Precálculo, Cálculo Diferencial e Introducción a la Ingeniería Industrial.",
 };
 
 export const queSeHaceContent = {
   title: "¿Qué se hace?",
   intro:
-    "Las sesiones del Programa de Acompañamiento cambian a lo largo del semestre según las necesidades del momento académico y formativo de los estudiantes. Algunas se enfocan en reforzar conceptos vistos en clase y orientar la resolución de ejercicios; otras se centran en el desarrollo de habilidades blandas, hábitos de estudio y actividades de integración a la vida universitaria.",
+    "Las sesiones se ajustan según el momento del semestre y las necesidades del grupo. Por eso, algunas actividades se enfocan en fortalecer conceptos académicos, mientras que otras buscan mejorar hábitos de estudio, preparar evaluaciones o facilitar la integración a la vida universitaria.",
   items: [
-    "Refuerzo de conceptos y temas vistos en clase.",
-    "Guía en la resolución de ejercicios.",
-    "Preparación para parciales y seguimiento académico.",
-    "Actividades de integración y construcción de comunidad.",
-    "Espacios para fortalecer habilidades blandas y hábitos de estudio.",
-    "Acompañamiento cercano durante la adaptación al primer semestre.",
+    "Revisión de conceptos clave de las materias base, conectando los temas vistos en clase con ejercicios aplicados y situaciones frecuentes del semestre.",
+    "Resolución guiada de ejercicios, con énfasis en el razonamiento, la interpretación de enunciados y la construcción paso a paso de soluciones.",
+    "Preparación para parciales, quices y entregas importantes mediante talleres prácticos, repasos temáticos y discusión de dudas comunes.",
+    "Seguimiento académico del avance de los estudiantes para identificar dificultades a tiempo y orientar estrategias de mejora.",
+    "Talleres de habilidades transversales, como organización del tiempo, hábitos de estudio, comunicación efectiva y presentación en público.",
+    "Actividades de integración y construcción de comunidad para fortalecer la confianza, el trabajo colaborativo y la red de apoyo entre estudiantes.",
   ],
 };
 
 export const calificacionContent = {
   title: "¿Cómo es el sistema de calificación?",
   intro:
-    "El Programa de Acompañamiento tiene una carga de 0 créditos y se registra con una nota final de aprobado o reprobado. Adicionalmente, cada estudiante obtiene una nota numérica que puede representar un beneficio adicional en el curso de Introducción a la Ingeniería Industrial.",
+    "El Programa de Acompañamiento tiene una carga de 0 créditos y se registra con una valoración final de aprobado o reprobado. Además, el desempeño del estudiante puede tener un beneficio académico asociado al curso de Introducción a la Ingeniería Industrial.",
   items: [
     "El programa tiene una carga de [[0 créditos académicos]].",
-    "La nota final se registra como [[aprobado]] o [[reprobado]].",
-    "Cada estudiante recibe además una [[nota numérica de seguimiento]].",
-    "Existe la posibilidad de [[retirar sin inconvenientes]] en el plan de estudios.",
-    "Para quienes permanezcan durante todo el semestre y aprueben el programa con [[nota igual o superior a 4.0]], la nota equivale a un [[5% adicional]] sobre [[Introducción a la Ingeniería Industrial]].",
+    "La valoración final se registra como [[aprobado]] o [[reprobado]].",
+    "Durante el semestre se asigna una [[nota numérica de seguimiento]].",
+    "El estudiante puede [[retirar el programa]] según las condiciones establecidas en el plan de estudios.",
+    "Quienes permanezcan durante todo el semestre y aprueben con [[nota igual o superior a 4.0]] reciben un beneficio equivalente al [[5% adicional]] en [[Introducción a la Ingeniería Industrial]].",
   ],
 };
-

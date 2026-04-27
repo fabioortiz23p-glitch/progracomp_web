@@ -53,7 +53,13 @@ export default function Footer() {
             </div>
 
             <div className="flex justify-center md:justify-start">
-              <div className="inline-flex rounded-2xl bg-white/10 px-5 py-4 backdrop-blur">
+              <a
+                href="https://industrial.uniandes.edu.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ir al sitio web del Departamento de Ingeniería Industrial"
+                className="inline-flex rounded-2xl bg-white/10 px-5 py-4 backdrop-blur transition hover:bg-white/15"
+              >
                 <Image
                   src="/brand/logo-uniandes-industrial.png"
                   alt="Universidad de los Andes - Departamento de Ingeniería Industrial"
@@ -62,7 +68,7 @@ export default function Footer() {
                   className="h-auto w-full max-w-[300px] sm:max-w-[360px] md:max-w-[340px]"
                   unoptimized
                 />
-              </div>
+              </a>
             </div>
           </div>
         </div>
