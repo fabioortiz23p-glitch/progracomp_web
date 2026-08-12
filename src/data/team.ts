@@ -14,7 +14,7 @@ export const teamMembers = [
   {
     name: "Alejandro Cortés",
     role: "Doble Monitor",
-    email: "",
+    email: "s.rinconc@uniandes.edu.co",
     image: "/team/Alejandro_Cortes_F.JPG",
   },
   {
@@ -44,7 +44,7 @@ export const teamMembers = [
   {
     name: "Ana Guzmán",
     role: "Monitora",
-    email: "",
+    email: "as.guzman@uniandes.edu.co",
     image: "/team/Ana_Guzman_F.jpg",
   },
   {
@@ -62,55 +62,55 @@ export const teamMembers = [
   {
     name: "Santiago Melo",
     role: "Monitor",
-    email: "",
+    email: "s.melom@uniandes.edu.co",
     image: "/team/Santiago_Melo_F.jpg",
   },
   {
     name: "Juanita Segura",
     role: "Monitora",
-    email: "",
+    email: "j.segura11@uniandes.edu.co",
     image: "/team/Juanita_Segura_F.jpeg",
   },
   {
     name: "Federico Niño",
     role: "Monitor",
-    email: "",
+    email: "f.ninon@uniandes.edu.co",
     image: "/team/Federico_Nino_F.jpg",
   },
   {
     name: "Juanita Arango",
     role: "Monitora",
-    email: "",
+    email: "j.arangoo2@uniandes.edu.co",
     image: "/team/Juanita_Arango_F.png",
   },
   {
     name: "Luis Sarmiento",
     role: "Monitor",
-    email: "",
+    email: "la.sarmientob1@uniandes.edu.co",
     image: "/team/Luis_Sarmiento_F.jpeg",
   },
   {
     name: "Juliana López",
     role: "Monitora",
-    email: "",
+    email: "j.lopezm23@uniandes.edu.co",
     image: "/team/Juliana_Lopez_F.jpg",
   },
   {
     name: "Sophie Olmi",
     role: "Monitora",
-    email: "",
+    email: "s.olmi@uniandes.edu.co",
     image: "/team/Sophie_Olmi_F.jpeg",
   },
   {
     name: "Santiago Cuesta",
     role: "Monitor",
-    email: "",
+    email: "s.cuestao@uniandes.edu.co",
     image: "/team/Santiago_Cuesta_F.jpeg",
   },
   {
     name: "Mariana González",
     role: "Monitora",
-    email: "",
+    email: "m.gonzaleze2@uniandes.edu.co",
     image: "/team/Mariana_Gonzalez_F.jpg",
   },
 ];
