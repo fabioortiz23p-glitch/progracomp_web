@@ -45,7 +45,7 @@ export const teamMembers = [
     name: "Ana Guzmán",
     role: "Monitora",
     email: "as.guzman@uniandes.edu.co",
-    image: "/team/Ana_Guzman_F.jpg",
+    image: "/team/Ana_Guzman_F.jpeg",
   },
   {
     name: "David Ramírez",
