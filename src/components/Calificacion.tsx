@@ -33,7 +33,7 @@ export default function Calificacion() {
             {calificacionContent.title}
           </h2>
 
-          <p className="mt-6 text-lg leading-8 text-[#5c4370]">
+          <p className="mt-6 text-justify text-lg leading-8 text-[#5c4370]">
             {calificacionContent.intro}
           </p>
         </div>

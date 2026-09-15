@@ -16,7 +16,7 @@ export default function Ventajas() {
           {ventajasContent.map((item) => (
             <div
               key={item}
-              className="group relative overflow-hidden rounded-2xl border border-[#e2d3f0] bg-white p-6 shadow-sm transition-all duration-300 ease-out hover:-translate-y-2 hover:border-[#caaee3] hover:shadow-xl"
+              className="group relative flex items-center justify-center overflow-hidden rounded-2xl border border-[#e2d3f0] bg-white p-6 text-center ..."
             >
               <div className="absolute left-0 top-0 h-1 w-full scale-x-0 origin-left bg-[#8f63b8] transition-transform duration-300 group-hover:scale-x-100" />
               <p className="text-base leading-7 text-[#5c4370] transition-colors duration-300 group-hover:text-[#4d2c67]">

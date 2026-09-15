@@ -2,12 +2,12 @@ export const faqs = [
   {
     question: "¿Es obligatorio?",
     answer:
-      "No. El Programa de Acompañamiento es voluntario y está pensado como un espacio de apoyo para estudiantes de primer semestre.",
+      "No, Programa de Acompañamiento es voluntario y está pensado como un espacio de apoyo para estudiantes de primer semestre.",
   },
   {
     question: "¿Tiene créditos?",
     answer:
-      "No. El programa tiene una carga de 0 créditos académicos.",
+      "No, Programa tiene una carga de 0 créditos académicos.",
   },
   {
     question: "¿A quién va dirigido?",
@@ -22,7 +22,7 @@ export const faqs = [
   {
     question: "¿Puedo retirarme del programa?",
     answer:
-      "Sí. Existe la posibilidad de retirarse, sin que esto represente inconvenientes para el plan de estudios.",
+      "Sí, existe la posibilidad de retirarse, sin que esto represente inconvenientes para el plan de estudios.",
   },
   {
     question: "¿Qué beneficio tiene la nota del programa?",

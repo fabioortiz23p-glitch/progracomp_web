@@ -31,7 +31,7 @@ export default function Equipo() {
         </h2>
 
         <p className="mx-auto mt-4 max-w-3xl text-center text-lg leading-8 text-[#5c4370]">
-          Programa de Acompañamiento 2026-10 cuenta con un equipo conformado
+          Programa de Acompañamiento 2026-20 cuenta con un equipo conformado
           por un Asistente Graduado y monitores que acompañan a los estudiantes
           de primer semestre en su adaptación académica y universitaria.
         </p>

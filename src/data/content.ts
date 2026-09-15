@@ -2,12 +2,12 @@ export const heroContent = {
   title: "Programa de Acompañamiento",
   subtitle:
     "Espacio de apoyo académico-formativo para estudiantes de primer semestre de Ingeniería Industrial, orientado a fortalecer la adaptación a la vida universitaria y brindar herramientas útiles para comenzar mejor el pregrado.",
-  primaryButton: "Conoce el programa",
+  primaryButton: "Conoce el Programa",
   secondaryButton: "Nuestro equipo",
 };
 
 export const queEsContent = {
-  title: "¿Qué es el programa?",
+  title: "¿Qué es el Programa?",
   text: "El Programa de Acompañamiento es una estrategia de apoyo para el inicio del pregrado en Ingeniería Industrial. Combina monitorías, seguimiento académico, actividades formativas y espacios de integración, con el fin de facilitar la adaptación a la vida universitaria y fortalecer el desempeño en las materias base del primer semestre.",
 };
 
@@ -16,7 +16,7 @@ export const ventajasContent = [
   "Refuerzo académico en cursos clave como Introducción a la Programación, Precálculo y Cálculo Diferencial.",
   "Seguimiento temprano para identificar dificultades, resolver dudas y orientar estrategias de estudio.",
   "Preparación práctica para parciales mediante ejercicios, talleres y material de apoyo.",
-  "Desarrollo de habilidades transversales como organización del tiempo, comunicación y trabajo colaborativo.",
+  "Desarrollo de habilidades blandas como organización del tiempo, comunicación y trabajo colaborativo.",
   "Construcción de comunidad entre estudiantes que están iniciando su experiencia universitaria.",
 ];
 

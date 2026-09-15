@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import VideoTrailer from "@/components/VideoTrailer";
 import QueEs from "@/components/QueEs";
 import Ventajas from "@/components/Ventajas";
 import DirigidoA from "@/components/DirigidoA";
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar />
       <main className="bg-[#faf7fd]">
         <Hero />
+        <VideoTrailer />
         <QueEs />
         <Ventajas />
         <DirigidoA />
