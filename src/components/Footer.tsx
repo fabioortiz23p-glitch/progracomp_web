@@ -25,7 +25,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <p className="mt-5 max-w-xl text-sm leading-7 text-[#efe6f7]">
+          <p className="mt-5 max-w-xl text-justify text-sm leading-7 text-[#efe6f7]">
             Espacio de apoyo entre pares para estudiantes de primer semestre de
             Ingeniería Industrial, enfocado en acompañamiento académico,
             integración y adaptación a la vida universitaria.
